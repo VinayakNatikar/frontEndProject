@@ -1,0 +1,16 @@
+{
+  "name": "dummy1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tailwindcss -i ./public/input.css -o ./public/css/styles.css",
+    "dev":"tailwindcss -i ./public/input.css -o ./public/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
